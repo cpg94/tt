@@ -5,10 +5,10 @@ import Vulnerability from "./pages/Vulnerability";
 function App() {
   return (
     <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Vulnerabilities />}/>
-          <Route path="/:id" element={<Vulnerability />}/>
-        </Routes>
+      <Routes>
+        <Route path="/" element={<Vulnerabilities />} />
+        <Route path="/:id" element={<Vulnerability />} />
+      </Routes>
     </BrowserRouter>
   )
 }
